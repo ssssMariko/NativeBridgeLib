@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+Constraint.h"
 
 FOUNDATION_EXPORT double NativeBridgeLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char NativeBridgeLibVersionString[];

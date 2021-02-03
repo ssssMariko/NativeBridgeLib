@@ -1,8 +1,8 @@
 {
   "name": "NativeBridgeLib",
   "version": "0.1.0",
-  "summary": "A short description of NativeBridgeLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "web/h5 bridge model",
+  "description": "web/h5 桥接到 native, native提供的本地化功能.",
   "homepage": "https://github.com/ssssMariko/NativeBridgeLib",
   "license": {
     "type": "MIT",

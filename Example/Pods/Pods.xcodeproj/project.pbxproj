@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006576BE268418DDBE158DA859BD3D08 /* Pods-NativeBridgeLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A0B2D01DC1C0829279FE7A3D45DAA8 /* Pods-NativeBridgeLib_Tests-dummy.m */; };
-		5AAFD84A279EABCD1E64A825714865FB /* Pods-NativeBridgeLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFD8A10AD525296553A42456E418DCD /* Pods-NativeBridgeLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DB1BAA169B11ACACCD2CD13C844F4CD /* NativeBridgeLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBB89B75C3A5B0D514AD5ABAF26C091 /* NativeBridgeLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A23BBE5DF0905BBCC8E4A0B6547C5F16 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BCB30107EC4784C592A3C3F183D49 /* ReplaceMe.m */; };
-		B4DDAEA57295C08136A9F95467551B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D99FC335FA8297640711418B2349E91C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		DA8A4DB32E0B2E548275C99BCB4C3215 /* NativeBridgeLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D16E44C29AACCE91F8C412E4083728 /* NativeBridgeLib-dummy.m */; };
+		15DF95D59920DD70A04D5460199DFA38 /* NativeBridgeLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFADDDF3A27F9A48666A7AAD00D565E /* NativeBridgeLib-dummy.m */; };
+		2E75FDD1F7C15DED147DC78690A15A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6F134A4F7B7A1CB1D2EEBBBD5944F7A8 /* UIView+Constraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EC0B15D611B0EFE4201069B5020B09 /* UIView+Constraint.m */; };
+		8F14D6245E94330E0360E6253EA7EB12 /* UIView+Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D22D7B3D30A920349BF66D9B8466FB3F /* UIView+Constraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DAC4827EF7881750DE9C9085ABFD258 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4718735BF9343165C577A2FE43C1D14 /* NativeBridgeLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C57D748F8035D6C8F1F019712F2AD5 /* NativeBridgeLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B98B03ECE9086B86D9261A323A3BFF /* Pods-NativeBridgeLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFD8A10AD525296553A42456E418DCD /* Pods-NativeBridgeLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBCC1BD82CE4B68D4FAAE631E96FBAA7 /* Pods-NativeBridgeLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A0B2D01DC1C0829279FE7A3D45DAA8 /* Pods-NativeBridgeLib_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5408D4C65F6F4565746B1B4B21095AAC /* PBXContainerItemProxy */ = {
+		46F1345103D5ACE8807D4AEC6BB5074D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,46 +28,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EE9B3495DA2633C1DD4AA4E86797E6B /* NativeBridgeLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NativeBridgeLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0F2BCB30107EC4784C592A3C3F183D49 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = NativeBridgeLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		0175BAC38D70B86E093BDDBD7037A4EF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1AF7C71B1C719EC3953E2B5B9851B04E /* NativeBridgeLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NativeBridgeLib-Info.plist"; sourceTree = "<group>"; };
 		1CFD8A10AD525296553A42456E418DCD /* Pods-NativeBridgeLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NativeBridgeLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		33A1841A0D8722421C0D4A5BEEADA0F3 /* NativeBridgeLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NativeBridgeLib.modulemap; sourceTree = "<group>"; };
+		2218C3DE1207A36CF4C7805EEA3EC27F /* NativeBridgeLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NativeBridgeLib.debug.xcconfig; sourceTree = "<group>"; };
 		3A20270C3B050A22764610B4E0621830 /* Pods-NativeBridgeLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativeBridgeLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		418669275D1DEBFBF1B065226E628074 /* NativeBridgeLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NativeBridgeLib.release.xcconfig; sourceTree = "<group>"; };
-		482BC41C349B6F962AB4A3EC14547BD8 /* NativeBridgeLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NativeBridgeLib.debug.xcconfig; sourceTree = "<group>"; };
-		5CBB89B75C3A5B0D514AD5ABAF26C091 /* NativeBridgeLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NativeBridgeLib-umbrella.h"; sourceTree = "<group>"; };
+		3DF4D7F06D544D0E587F4DCA40A18A25 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		618A9DE36CCBB428DBB63328B239658F /* Pods_NativeBridgeLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NativeBridgeLib_Tests.framework; path = "Pods-NativeBridgeLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		89D16E44C29AACCE91F8C412E4083728 /* NativeBridgeLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NativeBridgeLib-dummy.m"; sourceTree = "<group>"; };
-		8D7C5B5F39F0CB11C5ECC32D30856218 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		897B3EACF9273A7DC5DBD47EB57E9FF2 /* NativeBridgeLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NativeBridgeLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EFADDDF3A27F9A48666A7AAD00D565E /* NativeBridgeLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NativeBridgeLib-dummy.m"; sourceTree = "<group>"; };
 		944932658F5C983DF71D99BDDEE77F2C /* Pods-NativeBridgeLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NativeBridgeLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9851631DEDAC4FBA270E8AE88CFCD329 /* Pods-NativeBridgeLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NativeBridgeLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2BF0B2F69020338DF71B7D8CD5CE0A4 /* Pods-NativeBridgeLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NativeBridgeLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B25CFF3608AC498F02120C65C8B047B2 /* NativeBridgeLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NativeBridgeLib-Info.plist"; sourceTree = "<group>"; };
+		A606B9FEF424F3008D1D91720DD90250 /* NativeBridgeLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NativeBridgeLib.release.xcconfig; sourceTree = "<group>"; };
+		B140D785DA1E39FA18339E6B8804ECB4 /* NativeBridgeLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NativeBridgeLib-prefix.pch"; sourceTree = "<group>"; };
 		B6A0B2D01DC1C0829279FE7A3D45DAA8 /* Pods-NativeBridgeLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NativeBridgeLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		BF8DB71B357A36232482AC76A944F632 /* Pods-NativeBridgeLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NativeBridgeLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C2EC0B15D611B0EFE4201069B5020B09 /* UIView+Constraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Constraint.m"; path = "NativeBridgeLib/Classes/UIView+Constraint.m"; sourceTree = "<group>"; };
+		CABB2E40030D8DE11B5DE7624F5DDFFE /* NativeBridgeLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NativeBridgeLib.modulemap; sourceTree = "<group>"; };
 		CBAAAD736F809576FF694A5CC3C11343 /* Pods-NativeBridgeLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NativeBridgeLib_Tests.modulemap"; sourceTree = "<group>"; };
-		E4DFB0057801658386A04438D5841D2B /* NativeBridgeLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NativeBridgeLib-prefix.pch"; sourceTree = "<group>"; };
-		E81ED854C3D869BB3194B62296B94D64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D22D7B3D30A920349BF66D9B8466FB3F /* UIView+Constraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Constraint.h"; path = "NativeBridgeLib/Classes/UIView+Constraint.h"; sourceTree = "<group>"; };
 		EB0473E4CDEDD155755273CEE168ABD9 /* NativeBridgeLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NativeBridgeLib.framework; path = NativeBridgeLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C57D748F8035D6C8F1F019712F2AD5 /* NativeBridgeLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NativeBridgeLib-umbrella.h"; sourceTree = "<group>"; };
 		FC4B33E27E67B6F7089E66546BBB19E6 /* Pods-NativeBridgeLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NativeBridgeLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20DC38B3AD4A6020691422E7A15CA800 /* Frameworks */ = {
+		DE28ABCDD76EAD301500602E1BE2B719 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DDAEA57295C08136A9F95467551B47 /* Foundation.framework in Frameworks */,
+				9DAC4827EF7881750DE9C9085ABFD258 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E385CD07513975E2C7F235E056EBDF48 /* Frameworks */ = {
+		F8072006E8C832EBAE5E8DC5FBF530F0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D99FC335FA8297640711418B2349E91C /* Foundation.framework in Frameworks */,
+				2E75FDD1F7C15DED147DC78690A15A2E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +92,26 @@
 			path = "Target Support Files/Pods-NativeBridgeLib_Tests";
 			sourceTree = "<group>";
 		};
+		27EFB6DCEE5F4E58F9CEBCEB9A2149B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BCF85AD0DC32E67CC634EEC7E6EAF06 /* NativeBridgeLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3BCF85AD0DC32E67CC634EEC7E6EAF06 /* NativeBridgeLib */ = {
+			isa = PBXGroup;
+			children = (
+				D22D7B3D30A920349BF66D9B8466FB3F /* UIView+Constraint.h */,
+				C2EC0B15D611B0EFE4201069B5020B09 /* UIView+Constraint.m */,
+				9CD8E5CFFA804316383A19F016FC8B89 /* Pod */,
+				A9D9CA77169A571397D2E70C2CFA0D35 /* Support Files */,
+			);
+			name = NativeBridgeLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		5749B879A6087C91B351B090C0442378 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,56 +120,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5C9D2FFE08A8DD4BCB437868D47ECAD9 /* Pod */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8D7C5B5F39F0CB11C5ECC32D30856218 /* LICENSE */,
-				0EE9B3495DA2633C1DD4AA4E86797E6B /* NativeBridgeLib.podspec */,
-				E81ED854C3D869BB3194B62296B94D64 /* README.md */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9CD8E5CFFA804316383A19F016FC8B89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0175BAC38D70B86E093BDDBD7037A4EF /* LICENSE */,
+				897B3EACF9273A7DC5DBD47EB57E9FF2 /* NativeBridgeLib.podspec */,
+				3DF4D7F06D544D0E587F4DCA40A18A25 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6DB632581B5D8E9033AA1691225B1D7C /* NativeBridgeLib */ = {
+		A9D9CA77169A571397D2E70C2CFA0D35 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0F2BCB30107EC4784C592A3C3F183D49 /* ReplaceMe.m */,
-				5C9D2FFE08A8DD4BCB437868D47ECAD9 /* Pod */,
-				6E95BAD5DF2A7F118D035E0BF9B1C2C6 /* Support Files */,
-			);
-			name = NativeBridgeLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6E95BAD5DF2A7F118D035E0BF9B1C2C6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				33A1841A0D8722421C0D4A5BEEADA0F3 /* NativeBridgeLib.modulemap */,
-				89D16E44C29AACCE91F8C412E4083728 /* NativeBridgeLib-dummy.m */,
-				B25CFF3608AC498F02120C65C8B047B2 /* NativeBridgeLib-Info.plist */,
-				E4DFB0057801658386A04438D5841D2B /* NativeBridgeLib-prefix.pch */,
-				5CBB89B75C3A5B0D514AD5ABAF26C091 /* NativeBridgeLib-umbrella.h */,
-				482BC41C349B6F962AB4A3EC14547BD8 /* NativeBridgeLib.debug.xcconfig */,
-				418669275D1DEBFBF1B065226E628074 /* NativeBridgeLib.release.xcconfig */,
+				CABB2E40030D8DE11B5DE7624F5DDFFE /* NativeBridgeLib.modulemap */,
+				8EFADDDF3A27F9A48666A7AAD00D565E /* NativeBridgeLib-dummy.m */,
+				1AF7C71B1C719EC3953E2B5B9851B04E /* NativeBridgeLib-Info.plist */,
+				B140D785DA1E39FA18339E6B8804ECB4 /* NativeBridgeLib-prefix.pch */,
+				F4C57D748F8035D6C8F1F019712F2AD5 /* NativeBridgeLib-umbrella.h */,
+				2218C3DE1207A36CF4C7805EEA3EC27F /* NativeBridgeLib.debug.xcconfig */,
+				A606B9FEF424F3008D1D91720DD90250 /* NativeBridgeLib.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NativeBridgeLib";
-			sourceTree = "<group>";
-		};
-		9DF74D2A25DD334466B6905C8A717DD2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6DB632581B5D8E9033AA1691225B1D7C /* NativeBridgeLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		C8E2E4C12DB0F5813823DCBF22FCDCC6 /* Products */ = {
@@ -163,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9DF74D2A25DD334466B6905C8A717DD2 /* Development Pods */,
+				27EFB6DCEE5F4E58F9CEBCEB9A2149B7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C8E2E4C12DB0F5813823DCBF22FCDCC6 /* Products */,
 				5749B879A6087C91B351B090C0442378 /* Targets Support Files */,
@@ -173,7 +176,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,19 +184,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D187D142279D26D29BEEFFC49453FAC3 /* Headers */ = {
+		5B7DDFA78D3D526BF71772EF70CBFF90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB1BAA169B11ACACCD2CD13C844F4CD /* NativeBridgeLib-umbrella.h in Headers */,
+				B3B98B03ECE9086B86D9261A323A3BFF /* Pods-NativeBridgeLib_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F33D356D6A0FD65B98556C32CB0FCB26 /* Headers */ = {
+		E7FC5B8A7287D1FD4FE7427C42F1475F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AAFD84A279EABCD1E64A825714865FB /* Pods-NativeBridgeLib_Tests-umbrella.h in Headers */,
+				A4718735BF9343165C577A2FE43C1D14 /* NativeBridgeLib-umbrella.h in Headers */,
+				8F14D6245E94330E0360E6253EA7EB12 /* UIView+Constraint.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,17 +206,17 @@
 /* Begin PBXNativeTarget section */
 		D2EFF3B1A3C80402BC261B349190B021 /* Pods-NativeBridgeLib_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 411C60271A9D26AC5460B72F7D2385CC /* Build configuration list for PBXNativeTarget "Pods-NativeBridgeLib_Tests" */;
+			buildConfigurationList = 9195C9F04A3495916633AFD6CD413C15 /* Build configuration list for PBXNativeTarget "Pods-NativeBridgeLib_Tests" */;
 			buildPhases = (
-				F33D356D6A0FD65B98556C32CB0FCB26 /* Headers */,
-				337E30F62DBFE32370EEAE63FCD726C6 /* Sources */,
-				E385CD07513975E2C7F235E056EBDF48 /* Frameworks */,
-				B532F18EB920916E2357B0B11D77ADF3 /* Resources */,
+				5B7DDFA78D3D526BF71772EF70CBFF90 /* Headers */,
+				42E3513A70B8719D9CEECF7537568642 /* Sources */,
+				F8072006E8C832EBAE5E8DC5FBF530F0 /* Frameworks */,
+				E1DC8FE8B9029BF936B3394571C7601B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				06DA60FE33154FA8286A9ACCAD2BC281 /* PBXTargetDependency */,
+				838045933F8D33640CEECE2FE01E2BC9 /* PBXTargetDependency */,
 			);
 			name = "Pods-NativeBridgeLib_Tests";
 			productName = "Pods-NativeBridgeLib_Tests";
@@ -221,12 +225,12 @@
 		};
 		FB0E722B0E47528DC89A92EEF5E633FB /* NativeBridgeLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87292414E7EC365A0A25D0046DFCCD67 /* Build configuration list for PBXNativeTarget "NativeBridgeLib" */;
+			buildConfigurationList = E3A667ED272EEDC187284F8ABE7BC0F6 /* Build configuration list for PBXNativeTarget "NativeBridgeLib" */;
 			buildPhases = (
-				D187D142279D26D29BEEFFC49453FAC3 /* Headers */,
-				F2D9DDF2B96654F795EA74B4E4290433 /* Sources */,
-				20DC38B3AD4A6020691422E7A15CA800 /* Frameworks */,
-				206E5EFB861D55E4126F7E408F24D49E /* Resources */,
+				E7FC5B8A7287D1FD4FE7427C42F1475F /* Headers */,
+				F1B6C1F0799341118D002D3AB1FBF15B /* Sources */,
+				DE28ABCDD76EAD301500602E1BE2B719 /* Frameworks */,
+				D7E5B865DC4F9BEC2ECA84B7C47E9CE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -266,14 +270,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		206E5EFB861D55E4126F7E408F24D49E /* Resources */ = {
+		D7E5B865DC4F9BEC2ECA84B7C47E9CE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B532F18EB920916E2357B0B11D77ADF3 /* Resources */ = {
+		E1DC8FE8B9029BF936B3394571C7601B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,41 +287,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		337E30F62DBFE32370EEAE63FCD726C6 /* Sources */ = {
+		42E3513A70B8719D9CEECF7537568642 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006576BE268418DDBE158DA859BD3D08 /* Pods-NativeBridgeLib_Tests-dummy.m in Sources */,
+				FBCC1BD82CE4B68D4FAAE631E96FBAA7 /* Pods-NativeBridgeLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2D9DDF2B96654F795EA74B4E4290433 /* Sources */ = {
+		F1B6C1F0799341118D002D3AB1FBF15B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8A4DB32E0B2E548275C99BCB4C3215 /* NativeBridgeLib-dummy.m in Sources */,
-				A23BBE5DF0905BBCC8E4A0B6547C5F16 /* ReplaceMe.m in Sources */,
+				15DF95D59920DD70A04D5460199DFA38 /* NativeBridgeLib-dummy.m in Sources */,
+				6F134A4F7B7A1CB1D2EEBBBD5944F7A8 /* UIView+Constraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06DA60FE33154FA8286A9ACCAD2BC281 /* PBXTargetDependency */ = {
+		838045933F8D33640CEECE2FE01E2BC9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NativeBridgeLib;
 			target = FB0E722B0E47528DC89A92EEF5E633FB /* NativeBridgeLib */;
-			targetProxy = 5408D4C65F6F4565746B1B4B21095AAC /* PBXContainerItemProxy */;
+			targetProxy = 46F1345103D5ACE8807D4AEC6BB5074D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1453B81D7AED93FF0139812761DF0C4D /* Debug */ = {
+		3DF4F74746516FD298E70D38140EA19E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A20270C3B050A22764610B4E0621830 /* Pods-NativeBridgeLib_Tests.debug.xcconfig */;
+			baseConfigurationReference = 944932658F5C983DF71D99BDDEE77F2C /* Pods-NativeBridgeLib_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -340,15 +343,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -371,6 +376,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -405,42 +411,11 @@
 			};
 			name = Release;
 		};
-		B2725113B2D79E1F6D03AF952E5F1E83 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 418669275D1DEBFBF1B065226E628074 /* NativeBridgeLib.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NativeBridgeLib/NativeBridgeLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NativeBridgeLib/NativeBridgeLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NativeBridgeLib/NativeBridgeLib.modulemap";
-				PRODUCT_MODULE_NAME = NativeBridgeLib;
-				PRODUCT_NAME = NativeBridgeLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -463,6 +438,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -501,11 +477,10 @@
 			};
 			name = Debug;
 		};
-		C08530B1B0C8096383D6D592FE1A206F /* Debug */ = {
+		81894FE6869C1CF0A414968F551F9083 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 482BC41C349B6F962AB4A3EC14547BD8 /* NativeBridgeLib.debug.xcconfig */;
+			baseConfigurationReference = 2218C3DE1207A36CF4C7805EEA3EC27F /* NativeBridgeLib.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -532,12 +507,11 @@
 			};
 			name = Debug;
 		};
-		FE55101E3B08B6D34E10AC5707379F7D /* Release */ = {
+		9CC2B062BBBAE455BD3974AA9FBD3214 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 944932658F5C983DF71D99BDDEE77F2C /* Pods-NativeBridgeLib_Tests.release.xcconfig */;
+			baseConfigurationReference = 3A20270C3B050A22764610B4E0621830 /* Pods-NativeBridgeLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -560,6 +534,36 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFF051BA44985FC7E2DCD383B10416A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A606B9FEF424F3008D1D91720DD90250 /* NativeBridgeLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NativeBridgeLib/NativeBridgeLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NativeBridgeLib/NativeBridgeLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NativeBridgeLib/NativeBridgeLib.modulemap";
+				PRODUCT_MODULE_NAME = NativeBridgeLib;
+				PRODUCT_NAME = NativeBridgeLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -569,29 +573,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		411C60271A9D26AC5460B72F7D2385CC /* Build configuration list for PBXNativeTarget "Pods-NativeBridgeLib_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1453B81D7AED93FF0139812761DF0C4D /* Debug */,
-				FE55101E3B08B6D34E10AC5707379F7D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87292414E7EC365A0A25D0046DFCCD67 /* Build configuration list for PBXNativeTarget "NativeBridgeLib" */ = {
+		9195C9F04A3495916633AFD6CD413C15 /* Build configuration list for PBXNativeTarget "Pods-NativeBridgeLib_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C08530B1B0C8096383D6D592FE1A206F /* Debug */,
-				B2725113B2D79E1F6D03AF952E5F1E83 /* Release */,
+				9CC2B062BBBAE455BD3974AA9FBD3214 /* Debug */,
+				3DF4F74746516FD298E70D38140EA19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3A667ED272EEDC187284F8ABE7BC0F6 /* Build configuration list for PBXNativeTarget "NativeBridgeLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81894FE6869C1CF0A414968F551F9083 /* Debug */,
+				FFF051BA44985FC7E2DCD383B10416A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
