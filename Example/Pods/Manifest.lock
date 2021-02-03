@@ -1,15 +1,40 @@
 PODS:
-  - NativeBridgeLib (0.1.0)
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - MBProgressHUD (1.1.0)
+  - NativeBridgeLib (0.1.1):
+    - AFNetworking (~> 3.2.0)
+    - MBProgressHUD (~> 1.1.0)
 
 DEPENDENCIES:
   - NativeBridgeLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   NativeBridgeLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NativeBridgeLib: e58842fc1b37fc69855e1c6e3912c6c2681cbd84
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  NativeBridgeLib: 805c5cfaa18683ab7f29b54dacd5e718ed467571
 
 PODFILE CHECKSUM: 9e8748788aa3d91ee39ce9987a49a3844da34b40
 
