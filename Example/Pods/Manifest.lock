@@ -1,0 +1,16 @@
+PODS:
+  - NativeBridgeLib (0.1.0)
+
+DEPENDENCIES:
+  - NativeBridgeLib (from `../`)
+
+EXTERNAL SOURCES:
+  NativeBridgeLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NativeBridgeLib: ec96611c511080a898bcab24bfd034b9da58a8f2
+
+PODFILE CHECKSUM: 9e8748788aa3d91ee39ce9987a49a3844da34b40
+
+COCOAPODS: 1.9.3

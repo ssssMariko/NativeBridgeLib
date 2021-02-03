@@ -1,0 +1,6 @@
+framework module NativeBridgeLib {
+  umbrella header "NativeBridgeLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
