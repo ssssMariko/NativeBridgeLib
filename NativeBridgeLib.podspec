@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 框架的名称
   s.name             = 'NativeBridgeLib'
   # 框架的版本号
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   # 框架的简单介绍
   s.summary          = 'web/h5 bridge model'
   # 框架的详细描述(详细介绍，要比简介长)
