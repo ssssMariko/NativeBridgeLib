@@ -1,0 +1,6 @@
+use_frameworks!
+target 'NativeBridgeLib_Tests' do
+  pod 'NativeBridgeLib', :path => '../'
+  
+  
+end
