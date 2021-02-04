@@ -33,6 +33,5 @@ web/h5 桥接到 native, native提供的本地化功能.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.frameworks = 'Foundation','UIKit'
-  s.dependency 'AFNetworking', '~> 3.2.0'
-  s.dependency 'MBProgressHUD', '~> 1.1.0'
+  s.dependency 'YYCache'
 end
