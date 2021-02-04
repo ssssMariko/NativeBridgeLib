@@ -15,6 +15,8 @@
 		F08F46EF25CBCAC90026AFE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08F46ED25CBCAC90026AFE6 /* LaunchScreen.storyboard */; };
 		F08F470E25CBCD130026AFE6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F470D25CBCD130026AFE6 /* WebViewController.swift */; };
 		F08F471325CBD0740026AFE6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = F08F471225CBD0740026AFE6 /* www */; };
+		F08F472A25CBEC890026AFE6 /* WebJSBridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F472925CBEC890026AFE6 /* WebJSBridgeViewController.swift */; };
+		F08F472D25CBEF6D0026AFE6 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = F08F472C25CBEF6D0026AFE6 /* ExampleApp.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		F08F470D25CBCD130026AFE6 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		F08F471225CBD0740026AFE6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		F08F471525CBD25B0026AFE6 /* NativeBridgeLibDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeBridgeLibDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F08F472925CBEC890026AFE6 /* WebJSBridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebJSBridgeViewController.swift; sourceTree = "<group>"; };
+		F08F472C25CBEF6D0026AFE6 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		F08F470B25CBCC2A0026AFE6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F08F472725CBEC500026AFE6 /* WebViewJavascriptBridge */,
 				F08F470C25CBCC420026AFE6 /* WebCache */,
 			);
 			path = Controller;
@@ -110,6 +115,15 @@
 				F08F470D25CBCD130026AFE6 /* WebViewController.swift */,
 			);
 			path = WebCache;
+			sourceTree = "<group>";
+		};
+		F08F472725CBEC500026AFE6 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				F08F472C25CBEF6D0026AFE6 /* ExampleApp.html */,
+				F08F472925CBEC890026AFE6 /* WebJSBridgeViewController.swift */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08F472D25CBEF6D0026AFE6 /* ExampleApp.html in Resources */,
 				F08F471325CBD0740026AFE6 /* www in Resources */,
 				F08F46EF25CBCAC90026AFE6 /* LaunchScreen.storyboard in Resources */,
 				F08F46EC25CBCAC90026AFE6 /* Assets.xcassets in Resources */,
@@ -229,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08F46E725CBCAC80026AFE6 /* ViewController.swift in Sources */,
+				F08F472A25CBEC890026AFE6 /* WebJSBridgeViewController.swift in Sources */,
 				F08F470E25CBCD130026AFE6 /* WebViewController.swift in Sources */,
 				F08F46E325CBCAC80026AFE6 /* AppDelegate.swift in Sources */,
 			);

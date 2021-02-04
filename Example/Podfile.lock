@@ -1,13 +1,16 @@
 PODS:
   - NativeBridgeLib (0.1.4):
     - YYCache
+  - WebViewJavascriptBridge (6.0.3)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - NativeBridgeLib (from `../`)
+  - WebViewJavascriptBridge (~> 6.0)
 
 SPEC REPOS:
   trunk:
+    - WebViewJavascriptBridge
     - YYCache
 
 EXTERNAL SOURCES:
@@ -16,8 +19,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   NativeBridgeLib: 602568351e1bcf5ee088a66d22c5a806938b1291
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: b5d26eecdabdcc1b999ad1070f100356181a05b6
+PODFILE CHECKSUM: c7fc517f4a7e2417095c3ae9118f3e2d59bb2edc
 
 COCOAPODS: 1.10.1

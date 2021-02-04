@@ -25,6 +25,14 @@
                                     <segue destination="0hj-uR-Jkq" kind="show" id="aW6-5t-VdI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndU-u3-Yfa">
+                                <rect key="frame" x="43" y="208" width="178" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="WebViewJavascriptBridge"/>
+                                <connections>
+                                    <segue destination="40S-xu-6zR" kind="show" id="TFx-ZZ-1JF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -74,6 +82,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wVC-Ud-pbu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="736" y="412"/>
+        </scene>
+        <!--WebJS Bridge View Controller-->
+        <scene sceneID="rtt-Vs-dsi">
+            <objects>
+                <viewController id="40S-xu-6zR" customClass="WebJSBridgeViewController" customModule="NativeBridgeLibDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TTx-kw-9eA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="y0v-PX-S7U"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yPq-8g-nB4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ZZ-BR-6k5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="755" y="1216"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pQ5-7f-QMr">

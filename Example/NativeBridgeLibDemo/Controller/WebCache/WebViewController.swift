@@ -9,6 +9,7 @@ import UIKit
 import WebKit
 
 class WebViewController: UIViewController {
+    
     lazy var wkWebView: WKWebView = {
         let view = WKWebView(frame: self.view.bounds)
         view.backgroundColor = UIColor.white
