@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-NativeBridgeLibDemo/Pods-NativeBridgeLibDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/NativeBridgeLib/NativeBridgeLib.framework
+${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework

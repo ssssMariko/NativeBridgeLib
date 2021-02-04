@@ -20,10 +20,60 @@ it, simply add the following line to your Podfile:
 pod 'NativeBridgeLib'
 ```
 
-## Author
+## WebCache
 
-ssssMariko, 18502702013@163.com
+### 支持的缓存类型
 
-## License
+```objective-c
+typedef NS_ENUM(NSInteger, ZFJCacheType) {
+    ZFJCacheAllType         = 1 << 0,     //缓存全部
+    ZFJCacheImageType       = 1 << 1,     //缓存图片
+    ZFJCacheVideoType       = 1 << 2,     //缓存视频
+    ZFJCacheAudioType       = 1 << 3,     //缓存音频
+    ZFJCacheTextType        = 1 << 4,     //缓存text
+    ZFJCacheMessageType     = 1 << 5,     //缓存message
+    ZFJCacheX_WorldType     = 1 << 6,     //缓存x-world
+    ZFJCacheApplicationType = 1 << 7,     //缓存application
+    ZFJCacheNoneType        = 1 << 8,     //未知类型
+};
+```
 
-NativeBridgeLib is available under the MIT license. See the LICENSE file for more info.
+
+
+### 使用
+
+* 在Controller的viewWillAppear开启监听,viewWillDisappear关闭。
+
+```objective-c
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    //开始监听缓存数据
+    [ZFJCacheProtocol startMonitorRequest:ZFJCacheImageType];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    //在不需要用到webview的时候即使的取消监听
+    [ZFJCacheProtocol cancelMonitorRequest];
+}
+```
+
+* 设置缓存过期时间
+
+```objective-c
+ [ZFJCacheConfig instance].updateInterval = 1200;
+```
+
+* 设置忽略的url链接
+
+```objective-c
+NSArray *ignoreUrlArray = @[@"http://www.baidu.com"];
+[ZFJCacheConfig instance].ignoreUrlArray = ignoreUrlArray;
+```
+
+*  清空磁盘缓存
+
+```objective-c
+[[ZFJCacheConfig instance] clearDiskCache];
+```
+

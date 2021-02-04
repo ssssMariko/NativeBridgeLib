@@ -1,41 +1,23 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - MBProgressHUD (1.1.0)
   - NativeBridgeLib (0.1.4):
-    - AFNetworking (~> 3.2.0)
-    - MBProgressHUD (~> 1.1.0)
+    - YYCache
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - NativeBridgeLib (from `../`)
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
-    - MBProgressHUD
+    - YYCache
 
 EXTERNAL SOURCES:
   NativeBridgeLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  NativeBridgeLib: 4d9c460ee689c561e8ddb680b194f3ced99b231b
+  NativeBridgeLib: 602568351e1bcf5ee088a66d22c5a806938b1291
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 9e8748788aa3d91ee39ce9987a49a3844da34b40
+PODFILE CHECKSUM: b5d26eecdabdcc1b999ad1070f100356181a05b6
 
 COCOAPODS: 1.10.1

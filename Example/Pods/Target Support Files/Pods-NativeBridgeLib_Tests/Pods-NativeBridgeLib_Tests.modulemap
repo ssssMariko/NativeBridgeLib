@@ -1,6 +1,0 @@
-framework module Pods_NativeBridgeLib_Tests {
-  umbrella header "Pods-NativeBridgeLib_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
