@@ -13,4 +13,6 @@ target 'NativeBridgeLibDemo' do
   
   # ZipArchive    https://github.com/ZipArchive/ZipArchive
   pod 'SSZipArchive'
+  
+  pod 'AFNetworking', '~> 4.0'
 end
