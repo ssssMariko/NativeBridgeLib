@@ -100,11 +100,38 @@
                         <viewLayoutGuide key="safeArea" id="9Ng-DP-9cI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="downloadZip" id="xdK-2Z-E3T"/>
+                    <navigationItem key="navigationItem" title="downloadZip" id="xdK-2Z-E3T">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="5jh-3V-UT7">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="TpC-Yq-npz">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="下载任务"/>
+                                <connections>
+                                    <segue destination="Kih-Y3-OQI" kind="presentation" id="RSD-1d-GnD"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mgb-zN-qFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="900" y="1270"/>
+        </scene>
+        <!--任务下载-->
+        <scene sceneID="3WW-MP-0X8">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5du-Q3-7FF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="Kih-Y3-OQI" customClass="DownloadTaskViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fVe-lI-KaZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="d8F-qp-DPa"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="任务下载" id="vas-xN-1z9"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1605.7971014492755" y="1260.9375"/>
         </scene>
         <!--WebViewJavascriptBridge-->
         <scene sceneID="rtt-Vs-dsi">

@@ -5,3 +5,4 @@
 #import "ZFJWebCache.h"
 #import "WebViewJavascriptBridge.h"
 #import "ZipArchive.h"
+#import "WebResourceManager.h"
