@@ -33,6 +33,14 @@
                                     <segue destination="40S-xu-6zR" kind="show" id="TFx-ZZ-1JF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Evw-FP-IEJ">
+                                <rect key="frame" x="43" y="264" width="89" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="downloadZip"/>
+                                <connections>
+                                    <segue destination="sm8-f1-rUv" kind="show" id="GfU-Zn-zvb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -43,7 +51,7 @@
             </objects>
             <point key="canvasLocation" x="74" y="412"/>
         </scene>
-        <!--Web View Controller-->
+        <!--WebCache-->
         <scene sceneID="wCR-85-rJV">
             <objects>
                 <viewController id="0hj-uR-Jkq" customClass="WebViewController" customModule="NativeBridgeLibDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,8 +61,7 @@
                         <viewLayoutGuide key="safeArea" id="EE1-zi-PWI"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kRZ-L1-b8K">
-                        <nil key="title"/>
+                    <navigationItem key="navigationItem" title="WebCache" id="kRZ-L1-b8K">
                         <rightBarButtonItems>
                             <barButtonItem style="plain" id="lJd-vx-ZR3">
                                 <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="M4C-gB-sun">
@@ -83,7 +90,23 @@
             </objects>
             <point key="canvasLocation" x="736" y="412"/>
         </scene>
-        <!--WebJS Bridge View Controller-->
+        <!--downloadZip-->
+        <scene sceneID="wQp-GJ-iKb">
+            <objects>
+                <viewController id="sm8-f1-rUv" customClass="DownLoadViewController" customModule="NativeBridgeLibDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JWl-Xd-8Cm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9Ng-DP-9cI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="downloadZip" id="xdK-2Z-E3T"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mgb-zN-qFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="1270"/>
+        </scene>
+        <!--WebViewJavascriptBridge-->
         <scene sceneID="rtt-Vs-dsi">
             <objects>
                 <viewController id="40S-xu-6zR" customClass="WebJSBridgeViewController" customModule="NativeBridgeLibDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -93,11 +116,11 @@
                         <viewLayoutGuide key="safeArea" id="y0v-PX-S7U"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="yPq-8g-nB4"/>
+                    <navigationItem key="navigationItem" title="WebViewJavascriptBridge" id="yPq-8g-nB4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ZZ-BR-6k5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="755" y="1216"/>
+            <point key="canvasLocation" x="74" y="1262"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pQ5-7f-QMr">

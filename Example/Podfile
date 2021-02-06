@@ -10,4 +10,7 @@ target 'NativeBridgeLibDemo' do
   
   # WebViewJavascriptBridge  https://github.com/marcuswestin/WebViewJavascriptBridge
   pod 'WebViewJavascriptBridge', '~> 6.0'
+  
+  # ZipArchive    https://github.com/ZipArchive/ZipArchive
+  pod 'SSZipArchive'
 end

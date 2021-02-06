@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE213ECACE6E122CBF80A2EC /* Pods_NativeBridgeLibDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3394714A9C210839F85F0C1 /* Pods_NativeBridgeLibDemo.framework */; };
+		F07E3AD225CE1F9E00071139 /* DownLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07E3AD125CE1F9E00071139 /* DownLoadViewController.swift */; };
 		F08F46E325CBCAC80026AFE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F46E225CBCAC80026AFE6 /* AppDelegate.swift */; };
 		F08F46E725CBCAC80026AFE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08F46E625CBCAC80026AFE6 /* ViewController.swift */; };
 		F08F46EA25CBCAC80026AFE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08F46E825CBCAC80026AFE6 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		3ABDF63EFC5E672554D87E1C /* Pods-NativeBridgeLibDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridgeLibDemo.release.xcconfig"; path = "Target Support Files/Pods-NativeBridgeLibDemo/Pods-NativeBridgeLibDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E3394714A9C210839F85F0C1 /* Pods_NativeBridgeLibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NativeBridgeLibDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0825CCD41B3FA427A07802 /* Pods-NativeBridgeLibDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridgeLibDemo.debug.xcconfig"; path = "Target Support Files/Pods-NativeBridgeLibDemo/Pods-NativeBridgeLibDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F07E3AD125CE1F9E00071139 /* DownLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadViewController.swift; sourceTree = "<group>"; };
 		F08F46DF25CBCAC80026AFE6 /* NativeBridgeLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeBridgeLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08F46E225CBCAC80026AFE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F08F46E625CBCAC80026AFE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F07E3AD025CE1F6100071139 /* DownLoadZip */ = {
+			isa = PBXGroup;
+			children = (
+				F07E3AD125CE1F9E00071139 /* DownLoadViewController.swift */,
+			);
+			path = DownLoadZip;
+			sourceTree = "<group>";
+		};
 		F08F46D625CBCAC80026AFE6 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +112,7 @@
 		F08F470B25CBCC2A0026AFE6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F07E3AD025CE1F6100071139 /* DownLoadZip */,
 				F08F472725CBEC500026AFE6 /* WebViewJavascriptBridge */,
 				F08F470C25CBCC420026AFE6 /* WebCache */,
 			);
@@ -244,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F08F46E725CBCAC80026AFE6 /* ViewController.swift in Sources */,
+				F07E3AD225CE1F9E00071139 /* DownLoadViewController.swift in Sources */,
 				F08F472A25CBEC890026AFE6 /* WebJSBridgeViewController.swift in Sources */,
 				F08F470E25CBCD130026AFE6 /* WebViewController.swift in Sources */,
 				F08F46E325CBCAC80026AFE6 /* AppDelegate.swift in Sources */,
